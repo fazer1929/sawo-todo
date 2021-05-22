@@ -24,10 +24,10 @@ function SawoAuth() {
       sawo.showForm();
       console.log(currentUser);
       if (currentUser) {
-        history.push("/sawo-todo");
+        history.push("/");
       }
     })();
-  }, []);
+  }, [currentUser]);
 
   return (
     <div style={{ textAlign: "center" }}>
