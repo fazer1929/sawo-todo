@@ -15,7 +15,7 @@ function SawoAuth() {
       var config = {
         containerID: containerRef.current.id,
         identifierType: "email",
-        apiKey: `${process.env.REACT_APP_SAWO_API}`,
+        apiKey: "ea95e7aa-63e1-4412-8f9a-4b000bd43f81",
         onSuccess: (payload) => {
           loggedin(payload.user_id);
         },
