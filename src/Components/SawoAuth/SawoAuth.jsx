@@ -24,7 +24,7 @@ function SawoAuth() {
       sawo.showForm();
       console.log(currentUser);
       if (currentUser) {
-        history.push("/");
+        history.push("/sawo-todo");
       }
     })();
   }, []);
